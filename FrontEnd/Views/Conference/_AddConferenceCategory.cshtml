@@ -1,0 +1,40 @@
+﻿@model Core.ViewModels.Conference.ConferenceCategoryViewModel
+
+@if (Model.Categories != null)
+{
+    <select id="users-select" multiple class="form-control users-select">
+        @foreach (var item in Model.Categories)
+        {
+            <option>@item</option>
+        }
+    </select>
+}
+<br />
+@using (Ajax.BeginForm("AddConferenceCategory", "Conference", new AjaxOptions { UpdateTargetId = "body-content", OnComplete = "makeValidationSummaryRed" }))
+{
+    @Html.ValidationSummary(true)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CategoryName)
+        @Html.TextBoxFor(model => model.CategoryName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.CategoryName, null, new { @class = "label label-warning" })
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Add conference category</button>
+}
+
+<script>
+    $(document).ready(function() {
+        if (@Html.Raw(Json.Encode(ViewBag.IsCategoryCreated))) {
+            $.gritter.add({
+            title: 'Category successfully added!',
+            sticky: false,
+            time: 8000,
+            class_name: 'gritter-light'
+        });
+    }
+        if (@Html.Raw(Json.Encode(ViewBag.IsCallValidationSummary))) {
+            makeValidationSummaryRed();
+        }
+    });
+</script>

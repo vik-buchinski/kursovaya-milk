@@ -1,0 +1,10 @@
+﻿@if (!Request.IsAuthenticated)
+{
+    <li class="pull-right ">
+        @Ajax.ActionLink(@FrontEnd.Web.Resources.UserAreaResources.ENTER, "SignIn", "Account", new AjaxOptions { UpdateTargetId = "content" })
+        <a href="/"></a>
+    </li>
+    <li class="pull-right ">
+        <a href="/">@FrontEnd.Web.Resources.UserAreaResources.REGISTRATION</a>
+    </li>
+}

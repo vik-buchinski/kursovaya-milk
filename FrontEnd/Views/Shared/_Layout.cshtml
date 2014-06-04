@@ -1,0 +1,93 @@
+﻿@using System.Web.Optimization
+<html lang="en" id="main-page">
+<head>
+    <meta charset="utf-8" />
+    <title>@FrontEnd.Web.Resources.LayoutResources.CONFERENCE_NAME</title>
+
+    @Styles.Render("~/css")
+
+    @Scripts.Render("~/js")
+</head>
+<body>
+    <div class="spinner">
+        <img src="../../Content/ajax-loader.gif" />
+    </div>
+    <div class="container-fluid main-container">
+        <div id="header">
+            <div class="logo-container">
+                <a href="/" class="non-ref non-ref-hover">
+                    <div class="row-fluid">
+                        <div class="logo span3 right-border">
+                            <div class="block">
+                                <img src="../../Content/Icons/logo-image.png" />
+                            </div>
+                            <div class="logo-conf-year logo-conf-inf">
+                                2013
+                            </div>
+                        </div>
+                        <div class="conf-logo span9">
+                            <h4>@FrontEnd.Web.Resources.LayoutResources.CONFERENCE_LOGO_HEADER</h4>
+                            <h2>
+                                <strong>@FrontEnd.Web.Resources.LayoutResources.CONFERENCE_NAME</strong>
+                            </h2>
+                        </div>
+                    </div>
+                </a>
+
+                <div class="conf-inf logo-conf-inf">
+                    <a class="non-ref">22 - 25 апреля</a> @FrontEnd.Web.Resources.LayoutResources.CONFERENCE_PLACE
+                </div>
+            </div>
+
+            <ul class="nav nav-pills">
+                <li class="active"><a href="/">Главная</a></li>
+                <li class=""><a href="/">Организаторы</a></li>
+                <li class=""><a href="/">Участие</a></li>
+                <li class=""><a href="/">Требования к материалам</a></li>
+                <li class=""><a href="/">Докладчики</a></li>
+
+
+                <li class=""><a href="/">Контакты</a></li>
+                @Html.Partial("_UserAreaPartial")
+            </ul>
+        </div>
+
+        <div id="content">
+            @RenderBody()
+        </div>
+
+        <div class="footer row-fluid">
+            <div class="span2 logo-ext">
+                <a href="http://grsu.by/" target="_blank">
+                    <img src="http://mcit.mf.grsu.by/img/grsu-logo.png" />
+                </a>
+            </div>
+            <div class="span2 logo-ext">
+                <a href="http://mf.grsu.by/" target="_blank">
+                    <img src="http://mcit.mf.grsu.by/img/mf.png" />
+                </a>
+            </div>
+            <div class="span2 logo-ext">
+                <a href="http://itiubsu.by/" target="_blank">
+                    <img src="http://mcit.mf.grsu.by/img/itim.jpg" />
+                </a>
+            </div>
+            <div class="span2 logo-ext">
+                <a href="http://msu.ru/" target="_blank">
+                    <img src="http://mcit.mf.grsu.by/img/msu.jpg" />
+                </a>
+            </div>
+            <div class="span2 logo-ext">
+                <a href="http://cisco.com/" target="_blank">
+                    <img src="http://mcit.mf.grsu.by/img/cisco.jpg" />
+                </a>
+            </div>
+            <div class="span2 logo-ext" style="line-height: 90px">
+                <a href="http://microsoft.com/" target="_blank">
+                    <img src="http://mcit.mf.grsu.by/img/microsoft_logo.png" />
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

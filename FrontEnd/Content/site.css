@@ -1,0 +1,69 @@
+/*@media (min-width: 980px) {
+    body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+}
+
+.users-select {
+    height: 200px !important;
+    width: 600px;
+}
+
+.role-select {
+    height: 100px !important;
+    width: 100px;
+}
+
+tbody td {
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+#body-content {
+    max-width: 50%;
+    margin-left: 19em;
+}
+
+#conference-managment-block {
+    text-align: center;
+    margin-top: 20%;
+}
+
+    #conference-managment-block label {
+        display: none;
+    }
+
+.categories-grid > div {
+    width: 33.3%;
+}
+
+.downloads-list > li {
+    height: 55px;
+}
+
+    .downloads-list > li > p {
+        margin-top: 6px;
+        width: 340px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .downloads-list > li > form > button {
+        margin-right: 12px;
+    }*/
+.spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: none;
+}
+
+.block {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 1em;
+}

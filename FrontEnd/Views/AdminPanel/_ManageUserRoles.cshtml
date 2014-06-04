@@ -1,0 +1,115 @@
+﻿@model IEnumerable<DataAcess.Models.UserProfile>
+
+<table>
+    <tbody>
+        <tr>
+            <td>All Users</td>
+        </tr>
+        <tr>
+            <td>
+                <select id="users-select" multiple class="form-control users-select">
+                    @foreach (var item in Model)
+                    {
+                        <option value="@item.UserId">@item.LastName @item.FirstName @item.Patronymic @item.Email</option>
+                    }
+                </select>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <tbody>
+        <tr>
+            <td>Available roles</td>
+            <td></td>
+            <td>Current roles</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>
+                <select id="available-roles-select" multiple class="form-control role-select" />
+            </td>
+            <td>
+                <button id="add-role-button" class="btn btn-success">Add role <span class="glyphicon glyphicon-arrow-right"></span></button>
+            </td>
+            <td>
+                <select id="current-roles-select" multiple class="form-control role-select" />
+            </td>
+            <td>
+                <button id="delete-role-button" class="btn btn-warning"><span class="glyphicon glyphicon-remove"></span> Delete role</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<script>
+    $(document).ready(function () {
+        $("#add-role-button").addClass("disabled");
+        $("#delete-role-button").addClass("disabled");
+        
+        $('#add-role-button').on('click', function () {
+            var userId = $("#users-select").val()[0];
+            var roleName = $("#available-roles-select").val()[0];
+            server.addUserToRole(userId, roleName, function (data) {
+                $("#add-role-button").addClass("disabled");
+                $("#delete-role-button").addClass("disabled");
+                var currentRolesSelectId = "#current-roles-select";
+                var availableRolesSelectId = "#available-roles-select";
+                $(currentRolesSelectId).empty();
+                $(availableRolesSelectId).empty();
+
+                fillSelect(currentRolesSelectId, data.current_roles);
+                fillSelect(availableRolesSelectId, data.available_roles);
+            });
+        });
+        
+        $('#delete-role-button').on('click', function () {
+            var userId = $("#users-select").val()[0];
+            var roleName = $("#current-roles-select").val()[0];
+            server.removeUserFromRole(userId, roleName, function (data) {
+                $("#add-role-button").addClass("disabled");
+                $("#delete-role-button").addClass("disabled");
+                var currentRolesSelectId = "#current-roles-select";
+                var availableRolesSelectId = "#available-roles-select";
+                $(currentRolesSelectId).empty();
+                $(availableRolesSelectId).empty();
+
+                fillSelect(currentRolesSelectId, data.current_roles);
+                fillSelect(availableRolesSelectId, data.available_roles);
+            });
+        });
+
+        $("#available-roles-select").change(function () {
+            $("#add-role-button").removeClass("disabled");
+        });
+        
+        $("#current-roles-select").change(function () {
+            $("#delete-role-button").removeClass("disabled");
+        });
+
+        $("#users-select").change(function () {
+            $("#add-role-button").addClass("disabled");
+            $("#delete-role-button").addClass("disabled");
+            var userId = $("#users-select").val()[0];
+            server.getRolesInfo(userId, function (data) {
+                var currentRolesSelectId = "#current-roles-select";
+                var availableRolesSelectId = "#available-roles-select";
+                $(currentRolesSelectId).empty();
+                $(availableRolesSelectId).empty();
+
+                fillSelect(currentRolesSelectId, data.current_roles);
+                fillSelect(availableRolesSelectId, data.available_roles);
+            });
+        });
+
+        function fillSelect(selectId, list) {
+            for (var i = 0; i < list.length; i++) {
+                $(selectId).append($('<option>', {
+                    value: list[i],
+                    text: list[i]
+                }));
+            }
+        }
+    });
+</script>

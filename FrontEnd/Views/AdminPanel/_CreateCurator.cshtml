@@ -1,0 +1,87 @@
+﻿@model Core.ViewModels.AdminPanel.CuratorViewModel
+
+@using (Ajax.BeginForm("CreateCurator", "AdminPanel", new AjaxOptions { UpdateTargetId = "body-content", OnComplete = "makeValidationSummaryRed" }))
+{
+    @Html.ValidationSummary(true)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.FirstName)
+        @Html.TextBoxFor(model => model.FirstName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.FirstName, null, new { @class = "label label-warning" })
+    </div>
+    
+    <div class="form-group">
+        @Html.LabelFor(model => model.Patronymic)
+        @Html.TextBoxFor(model => model.Patronymic, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Patronymic, null, new { @class = "label label-warning" })
+    </div>
+    
+    <div class="form-group">
+        @Html.LabelFor(model => model.LastName)
+        @Html.TextBoxFor(model => model.LastName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.LastName, null, new { @class = "label label-warning" })
+    </div>
+    
+    <div class="form-group">
+        @Html.LabelFor(model => model.Email)
+        @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Email, null, new { @class = "label label-warning" })
+    </div>
+    
+    <div class="form-group">
+        @Html.LabelFor(model => model.Password)
+        @Html.PasswordFor(model => model.Password, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Password, null, new { @class = "label label-warning" })
+    </div>
+    
+    <div class="form-group">
+        @Html.LabelFor(model => model.ConfirmPassword)
+        @Html.PasswordFor(model => model.ConfirmPassword, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.ConfirmPassword, null, new { @class = "label label-danger" })
+    </div>
+    
+    <div class="form-group">
+        @Html.LabelFor(model => model.WorkPlace)
+        @Html.TextBoxFor(model => model.WorkPlace, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.WorkPlace, null, new { @class = "label label-warning" })
+    </div>
+    
+    <div class="form-group">
+        @Html.LabelFor(model => model.Chair)
+        @Html.TextBoxFor(model => model.Chair, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Chair, null, new { @class = "label label-warning" })
+    </div>
+    
+    <div class="form-group">
+        @Html.LabelFor(model => model.Post)
+        @Html.TextBoxFor(model => model.Post, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Post, null, new { @class = "label label-warning" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.AcademicTitle)
+        @Html.TextBoxFor(model => model.AcademicTitle, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.AcademicTitle, null, new { @class = "label label-warning" })
+    </div>
+    
+    <div class="form-group">
+        @Html.LabelFor(model => model.Degree)
+        @Html.TextBoxFor(model => model.Degree, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Degree, null, new { @class = "label label-warning" })
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Create curator</button>
+}
+
+<script>
+    $(document).ready(function() {
+        if (@Html.Raw(Json.Encode(ViewBag.IsCuratorCreated))) {
+            $.gritter.add({
+                title: 'Curator successfully created!',
+                sticky: false,
+                time: 8000,
+                class_name: 'gritter-light'
+            });
+    }
+    });
+</script>

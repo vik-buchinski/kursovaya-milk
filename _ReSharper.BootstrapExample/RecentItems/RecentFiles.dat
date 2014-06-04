@@ -1,0 +1,66 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:ViewModels/d:Account/f:SignUpViewModel.cs" caret="1511" fromTop="41" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:ViewModels/d:AdminPanel/f:RoleManagmentViewModel.cs" caret="59" fromTop="2" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Conference/f:_AddConferenceCategory.cshtml" caret="0" fromTop="0" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:ViewModels/d:Conference/f:ConferenceCategoryViewModel.cs" caret="97" fromTop="3" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:ViewModels/d:Conference/f:ConferenceStatusViewModel.cs" caret="21" fromTop="0" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Conference/f:_RegistrateMember.cshtml" caret="0" fromTop="0" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:ViewModels/d:Conference/f:MemberViewModel.cs" caret="66" fromTop="2" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Conference/f:_TakePart.cshtml" caret="0" fromTop="0" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:ViewModels/d:Conference/f:TakePartCategotyViewModel.cs" caret="57" fromTop="2" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:ViewModels/d:Conference/f:UploadWorkViewModel.cs" caret="100" fromTop="3" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/f:Web.config" caret="0" fromTop="0" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Account/f:_SignUp.cshtml" caret="0" fromTop="0" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:AdminPanel/f:_CreateCurator.cshtml" caret="0" fromTop="0" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:AdminPanel/f:_ManageUserRoles.cshtml" caret="0" fromTop="0" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:App_Start/f:WebApiConfig.cs" caret="0" fromTop="0" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Helpers/f:HtmlHelpers.cs" caret="0" fromTop="0" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:Migrations/f:Configuration.cs" caret="110" fromTop="4" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:Controllers/f:AccountController.cs" caret="3757" fromTop="26" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:Controllers/f:AdminPanelController.cs" caret="4278" fromTop="18" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:Controllers/f:CommonController.cs" caret="0" fromTop="0" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:Controllers/f:ConferenceController.cs" caret="0" fromTop="0" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Conference/f:_UploadWork.cshtml" caret="4053" fromTop="21" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:ViewModels/d:AdminPanel/f:CuratorViewModel.cs" caret="0" fromTop="0" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:App_Start/f:BundleConfig.cs" caret="0" fromTop="0" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:App_Start/f:FilterConfig.cs" caret="0" fromTop="0" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/f:Global.asax.cs" caret="0" fromTop="0" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:Controllers/f:HomeController.cs" caret="37" fromTop="3" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Shared/f:_Layout.cshtml" caret="0" fromTop="0" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Shared/f:_UserAreaPartial.cshtml" caret="0" fromTop="0" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:App_Start/f:RouteConfig.cs" caret="263" fromTop="10" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="A9EB6478-DFAB-459A-9FE8-7B4AD1FF124B/d:Filters/f:InitializeSimpleMembershipAttribute.cs" caret="2186" fromTop="52" />
+    <File id="A9EB6478-DFAB-459A-9FE8-7B4AD1FF124B/d:Models/d:Conference/f:ConferenceCategoryModel.cs" caret="130" fromTop="3" />
+    <File id="A9EB6478-DFAB-459A-9FE8-7B4AD1FF124B/d:Models/d:Conference/f:ConferenceModel.cs" caret="129" fromTop="3" />
+    <File id="A9EB6478-DFAB-459A-9FE8-7B4AD1FF124B/d:Models/d:ConferenceMember/f:MemberModel.cs" caret="132" fromTop="3" />
+    <File id="A9EB6478-DFAB-459A-9FE8-7B4AD1FF124B/d:Models/d:ConferenceMember/f:MemberWorkModel.cs" caret="133" fromTop="3" />
+    <File id="A9EB6478-DFAB-459A-9FE8-7B4AD1FF124B/d:Models/f:AccountModels.cs" caret="123" fromTop="3" />
+    <File id="A9EB6478-DFAB-459A-9FE8-7B4AD1FF124B/f:ApplicationContext.cs" caret="204" fromTop="6" />
+    <File id="A9EB6478-DFAB-459A-9FE8-7B4AD1FF124B/f:Repositories.cs" caret="2348" fromTop="67" />
+    <File id="A9EB6478-DFAB-459A-9FE8-7B4AD1FF124B/f:CommonRepository.cs" caret="1377" fromTop="26" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:Controllers/f:CommonController.cs" caret="56" fromTop="3" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:Controllers/f:HomeController.cs" caret="41" fromTop="3" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/f:Constants.cs" caret="14" fromTop="0" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:AdminPanel/f:_ManageUserRoles.cshtml" caret="35" fromTop="0" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Conference/f:_ConferenceManagment.cshtml" caret="23" fromTop="0" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Conference/f:_UploadWork.cshtml" caret="4093" fromTop="28" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Shared/f:_UserAreaPartial.cshtml" caret="23" fromTop="0" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:ViewModels/d:Account/f:SignInViewModel.cs" caret="71" fromTop="2" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:ViewModels/d:Account/f:SignUpViewModel.cs" caret="1511" fromTop="41" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:ViewModels/d:AdminPanel/f:CuratorViewModel.cs" caret="2033" fromTop="54" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:ViewModels/d:AdminPanel/f:RoleManagmentViewModel.cs" caret="59" fromTop="2" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:ViewModels/d:Conference/f:ConferenceCategoryViewModel.cs" caret="97" fromTop="3" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:ViewModels/d:Conference/f:ConferenceStatusViewModel.cs" caret="21" fromTop="0" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:ViewModels/d:Conference/f:MemberViewModel.cs" caret="66" fromTop="2" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:ViewModels/d:Conference/f:TakePartCategotyViewModel.cs" caret="57" fromTop="2" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:ViewModels/d:Conference/f:UploadWorkViewModel.cs" caret="100" fromTop="3" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:Migrations/f:Configuration.cs" caret="72" fromTop="3" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:Controllers/f:ConferenceController.cs" caret="16461" fromTop="382" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:Controllers/f:AccountController.cs" caret="3757" fromTop="26" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:Controllers/f:AdminPanelController.cs" caret="4278" fromTop="18" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:App_Start/f:RouteConfig.cs" caret="263" fromTop="10" />
+  </RecentEdits>
+</RecentFiles>

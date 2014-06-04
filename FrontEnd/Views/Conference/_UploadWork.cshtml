@@ -1,0 +1,113 @@
+﻿@model Core.ViewModels.Conference.UploadWorkViewModel
+<br />
+<br />
+<br />
+
+@if (Model.UploadedWorks.Any())
+{
+    <ul class="list-group downloads-list">
+        @foreach (var work in Model.UploadedWorks)
+        {
+            <li class="list-group-item">
+                <p class="pull-left">@work.FileName</p>
+                <a class="btn btn-success pull-right" type="button" href="@Url.Action("DownloadWork", "Conference",
+                                                                                      new { file_name = work.FileName, member_id = work.MemberId, category_id = work.CategoryId })">
+                    <span class="glyphicon glyphicon glyphicon-floppy-save"></span>Download
+                </a>
+                @using (Ajax.BeginForm("DeleteWork", "Conference", new { file_name = work.FileName, member_id = work.MemberId, category_id = work.CategoryId }, new AjaxOptions { OnComplete = "updateView" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <button class="btn btn-default pull-right" type="submit">
+                        <span class="glyphicon glyphicon-trash"></span>Delete
+                    </button>
+                }
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <h2 class="text-danger text-center">No uploaded works</h2>
+}
+
+@using (Ajax.BeginForm("WorkUploading", "Conference", new AjaxOptions() { HttpMethod = "POST" }, new { enctype = "multipart/form-data", @id = "upload-form" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="well">
+        <span>Add files...</span>
+        <input type="file" id="file-upload" name="files" multiple="multiple" onchange="onFilesSelected(); ">
+        <button id="btn-upload-all" class="btn btn-success disabled pull-right" onclick=" showLoader = false; " type="submit">
+            <span class="glyphicon glyphicon-floppy-open"></span>Upload All
+        </button>
+        <div class="clearfix" />
+        <div class="progress" style="width: 100%; margin-top: 10px;">
+            <div class="progress-bar progress-striped active" role="progressbar" id="overall-bar" style="width: 0%">
+            </div>
+        </div>
+    </div>
+}
+
+<script>
+
+    (function() {
+
+        var bar = $("#overall-bar");
+        var percent = $("#overall-bar");
+        var status = $('#status');
+
+        $("#upload-form").ajaxForm({
+            data:{ member_id: @Model.MemberId, category_id: @Model.CategoryId },
+            beforeSend: function() {
+                status.empty();
+                var percentVal = '0%';
+                bar.width(percentVal)
+                percent.html(percentVal);
+            },
+            uploadProgress: function(event, position, total, percentComplete) {
+                var percentVal = percentComplete + '%';
+                bar.width(percentVal);
+                percent.html(percentVal);
+            },
+            success: function() {
+                var percentVal = '100%';
+                bar.width(percentVal);
+                percent.html(percentVal);
+            },
+            complete: function(xhr) {
+                var percentVal = '0%';
+                bar.width(percentVal);
+                percent.html("");
+                status.html(xhr.responseText);
+                $("#file-upload").val("");
+                $("#btn-upload-all").addClass("disabled");
+                showLoader = true;
+                updateView();
+            },
+            error: function(error) {
+                alert(JSON.parse(error.responseText));
+                showLoader = true;
+            }
+        }); 
+
+    })();
+    
+    function updateView() {
+        server.goToFileUpload(@Model.MemberId, @Model.CategoryId, function(data) {
+            $("#body-content").html(data);
+        });
+    }
+
+    function onFilesSelected() {
+        var files = $("#file-upload")[0].files;
+        for (var i = 0; i < files.length; i++) {
+            if (files[i].size > @Core.Constants.UPLOAD_FILE_LIMIT_IN_BYTES) {
+                var sizeInMb = @Core.Constants.UPLOAD_FILE_LIMIT_IN_BYTES / 1024 / 1024;
+            $("#btn-upload-all").addClass("disabled");
+            alert(files[i].name + " is larger than " + sizeInMb + "Mb");
+            return;
+        }
+    }
+    $("#btn-upload-all").removeClass("disabled");
+    }
+</script>

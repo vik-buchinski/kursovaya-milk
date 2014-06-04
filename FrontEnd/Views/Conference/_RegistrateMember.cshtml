@@ -1,0 +1,50 @@
+﻿@model Core.ViewModels.Conference.MemberViewModel
+
+<h2 class="text-center">Member registration</h2>
+@using (Ajax.BeginForm("RegistrateMember", "Conference", new AjaxOptions { UpdateTargetId = "body-content", OnComplete = "makeValidationSummaryRed" }))
+{
+    @Html.ValidationSummary(true)
+    <div class="form-group">
+        @Html.LabelFor(model => model.State)
+        @Html.TextBoxFor(model => model.State, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.State, null, new { @class = "label label-warning" })
+    </div>
+    
+    <div class="form-group">
+        @Html.LabelFor(model => model.Town)
+        @Html.TextBoxFor(model => model.Town, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Town, null, new { @class = "label label-warning" })
+    </div>
+    
+    <div class="form-group">
+        @Html.LabelFor(model => model.EducationalInstitution)
+        @Html.TextBoxFor(model => model.EducationalInstitution, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.EducationalInstitution, null, new { @class = "label label-warning" })
+    </div>
+    
+    <div class="form-group">
+        @Html.LabelFor(model => model.NameOrNumber)
+        @Html.TextBoxFor(model => model.NameOrNumber, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.NameOrNumber, null, new { @class = "label label-warning" })
+    </div>
+    
+    <div class="form-group">
+        @Html.LabelFor(model => model.ClassOrGroup)
+        @Html.TextBoxFor(model => model.ClassOrGroup, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.ClassOrGroup, null, new { @class = "label label-warning" })
+    </div>
+    
+    @Html.TextBoxFor(model => model.CategoryId, new { @class = "form-control hidden" })
+    
+    <button type="submit" class="btn btn-primary">Registrate member</button>
+}
+
+<script>
+    $(document).ready(function() {
+        if (@Html.Raw(Json.Encode(ViewBag.IsRegistrationComplete))) {
+            server.goToFileUpload(@Model.MemberId, @Model.CategoryId, function(data) {
+                $("#body-content").html(data);
+        });
+    }
+    });
+</script>

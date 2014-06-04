@@ -1,0 +1,131 @@
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\BootstrapExample.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\BootstrapExample.pdb
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\Microsoft.Web.Infrastructure.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\Newtonsoft.Json.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Net.Http.Formatting.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.Http.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.Http.WebHost.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.Optimization.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\WebGrease.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\Newtonsoft.Json.xml
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Net.Http.Formatting.xml
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.Http.xml
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.Http.WebHost.xml
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\obj\Debug\BootstrapExample.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\obj\Debug\BootstrapExample.pdb
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\EntityFramework.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\EntityFramework.SqlServer.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\EntityFramework.xml
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\EntityFramework.SqlServer.xml
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\obj\Debug\BootstrapExample.csprojResolveAssemblyReference.cache
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.Http.SelfHost.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.Http.SelfHost.xml
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.Optimization.xml
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\ru\System.Web.Http.resources.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\ru\System.Web.Http.SelfHost.resources.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\ru\System.Web.Http.WebHost.resources.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\ru\System.Net.Http.Formatting.resources.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.Helpers.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.Helpers.xml
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\ru\System.Web.Helpers.resources.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.Mvc.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.Mvc.xml
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\ru\System.Web.Mvc.resources.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.WebPages.Razor.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.WebPages.Razor.xml
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\ru\System.Web.WebPages.Razor.resources.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.WebPages.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.WebPages.xml
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\ru\System.Web.WebPages.resources.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\WebMatrix.Data.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\WebMatrix.WebData.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\WebMatrix.Data.xml
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\WebMatrix.WebData.xml
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\ru\WebMatrix.Data.resources.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\ru\WebMatrix.WebData.resources.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\Microsoft.CSharp.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.ComponentModel.DataAnnotations.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Configuration.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Data.DataSetExtensions.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Data.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Drawing.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.EnterpriseServices.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Net.Http.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Net.Http.WebRequest.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.Abstractions.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.ApplicationServices.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.DynamicData.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.Entity.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.Extensions.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.Routing.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Web.Services.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Xml.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\System.Xml.Linq.dll
+E:\учебники\4 курс\kursovaya\BootstrapExample\BootstrapExample\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\BootstrapExample.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\BootstrapExample.pdb
+E:\GitHub\Kursovaya\BootstrapExample\bin\EntityFramework.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\EntityFramework.SqlServer.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\Microsoft.CSharp.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\Microsoft.Web.Infrastructure.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\Newtonsoft.Json.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.ComponentModel.DataAnnotations.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Configuration.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Data.DataSetExtensions.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Data.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Drawing.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.EnterpriseServices.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Net.Http.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Net.Http.Formatting.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Net.Http.WebRequest.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.Abstractions.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.ApplicationServices.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.DynamicData.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.Entity.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.Extensions.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.Helpers.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.Http.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.Http.SelfHost.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.Http.WebHost.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.Mvc.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.Optimization.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.Routing.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.Services.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.WebPages.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.WebPages.Razor.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Xml.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Xml.Linq.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\WebGrease.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\WebMatrix.Data.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\WebMatrix.WebData.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\EntityFramework.xml
+E:\GitHub\Kursovaya\BootstrapExample\bin\EntityFramework.SqlServer.xml
+E:\GitHub\Kursovaya\BootstrapExample\bin\Newtonsoft.Json.xml
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Net.Http.Formatting.xml
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.Helpers.xml
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.Http.xml
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.Http.SelfHost.xml
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.Http.WebHost.xml
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.Mvc.xml
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.Optimization.xml
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.WebPages.xml
+E:\GitHub\Kursovaya\BootstrapExample\bin\System.Web.WebPages.Razor.xml
+E:\GitHub\Kursovaya\BootstrapExample\bin\WebMatrix.Data.xml
+E:\GitHub\Kursovaya\BootstrapExample\bin\WebMatrix.WebData.xml
+E:\GitHub\Kursovaya\BootstrapExample\bin\ru\System.Net.Http.Formatting.resources.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\ru\System.Web.Helpers.resources.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\ru\System.Web.Http.resources.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\ru\System.Web.Http.SelfHost.resources.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\ru\System.Web.Http.WebHost.resources.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\ru\System.Web.Mvc.resources.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\ru\System.Web.WebPages.resources.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\ru\System.Web.WebPages.Razor.resources.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\ru\WebMatrix.Data.resources.dll
+E:\GitHub\Kursovaya\BootstrapExample\bin\ru\WebMatrix.WebData.resources.dll
+E:\GitHub\Kursovaya\BootstrapExample\obj\Debug\BootstrapExample.dll
+E:\GitHub\Kursovaya\BootstrapExample\obj\Debug\BootstrapExample.pdb
+E:\GitHub\Kursovaya\BootstrapExample\obj\Debug\BootstrapExample.csprojResolveAssemblyReference.cache

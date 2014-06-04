@@ -1,0 +1,8 @@
+E:\Android\Phonegap apps\GitHub\kursovaya\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+E:\Android\Phonegap apps\GitHub\kursovaya\Core\bin\Debug\Core.dll
+E:\Android\Phonegap apps\GitHub\kursovaya\Core\bin\Debug\Core.pdb
+E:\Android\Phonegap apps\GitHub\kursovaya\Core\bin\Debug\DataAcess.dll
+E:\Android\Phonegap apps\GitHub\kursovaya\Core\bin\Debug\DataAcess.pdb
+E:\Android\Phonegap apps\GitHub\kursovaya\Core\bin\Debug\EntityFramework.xml
+E:\Android\Phonegap apps\GitHub\kursovaya\Core\obj\Debug\Core.dll
+E:\Android\Phonegap apps\GitHub\kursovaya\Core\obj\Debug\Core.pdb

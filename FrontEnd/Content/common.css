@@ -1,0 +1,218 @@
+﻿.floatingHeader {
+			position: fixed;
+			top: 0;
+			visibility: hidden;
+		}
+		.additional-info{
+			color: #6A747E;
+			font-size: 12px;
+		}
+		.tile{
+			padding: 5px;
+			/*background: #F0F1F4;*/
+			display: table-cell !important;
+			width: 31%;
+			min-height: 100px;
+			position: relative;
+			margin-bottom: 10px;
+		}
+		.tile .tile-content{
+			font-size: 14px;
+		}
+		.tile .tile-brand{
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			min-height: 20px;
+			background-color: transparent;
+		}
+		.tile .badge{
+			width: 26px;
+			color: white;
+			float: right;
+			text-align: center;
+			right: 10px;
+			position: absolute;
+		}
+		
+		.tile-pink .badge{
+			background: #dc4fad;
+		}
+		.tile-orange .badge{
+			background: #ff8f32;
+		}
+		.tile-light-teal .badge{
+			background: #03b3b2;
+		}
+		.tile-light-blue .badge{
+			background: #5db2ff;
+		}
+		.tile-light-blue:hover .badge{
+			background: #84c4ff;
+		}
+		.tile-dark-purple .badge{
+			background: #4617b4;
+		}
+		.tile-light-green .badge{
+			background: #82ba00;
+		}
+		.tile-purple .badge{
+			background: #8c0095;
+		}
+		.tile a {
+			color: #222;
+		}
+		.tile a:hover {
+			text-decoration: none;
+		}
+
+		.btn-light-blue{
+			background: #5db2ff;
+		}
+		.btn-light-blue:hover{
+			background: #84c4ff;
+		}
+
+
+		.full-width{
+			width: 100%;
+		}
+		.one-fifth-width{
+			width: 20%;
+			float: left;
+			text-align: center;
+		}
+		.right-border{
+			border-right: 1px solid #BBB;
+		}
+
+
+		#OrgCarousel{
+			border: 1px solid #CCC;
+		}
+		#OrgCarousel .item{
+			height: 100px;
+			line-height: 100px;
+		}
+		.non-ref:hover{
+			color: #0071C5;
+			text-decoration: none;
+		}
+		.non-ref-hover:hover{
+			cursor: pointer;
+		}
+
+		.reporters{
+			border: 1px solid #5db2ff;
+		}
+		.reporters .header{
+			color: white;
+		}
+		.reporters .header:hover{
+			color: white;
+		}
+		.reporters ul{
+			list-style-type: none;
+			margin:0px;
+		}
+		.reporters ul li {
+			padding: 5px;
+		}
+		.reporters img{
+			width: 48px;
+			height: 48px;
+			margin-right: 5px;
+			margin-bottom: 5px;
+			float: left;
+		}
+
+		.logo-container{
+			margin-top: 20px;
+			width: 100%;
+			height: 160px;
+		}
+		.logo{
+			height: 120px; 
+			width: 190px; 
+			float: left; 
+			padding-right:10px; 
+		}
+		.logo-conf-name{
+			font-size: 90px;
+			line-height: 90px;
+			margin-left: -6px;
+		}
+		.logo-conf-year{
+			float: right;
+		}
+		.logo-conf-inf{
+			font-size: 30px;
+			font-weight: lighter;
+			font-family: "Segoe UI Light", Helvetica, Arial, sans-serif;
+  			color: #999999;	
+		}
+		.conf-logo{
+			margin-left: 10px; 
+			float: left; 
+			width: 460px;
+		}
+		.conf-logo h4{
+			color: #999;
+			margin-top: 15px;
+		}
+		.conf-logo h2{
+			margin-top: -5px;
+		}
+		
+		.conf-inf{
+			display: inline-block;
+			width: 100%;
+			vertical-align: baseline;
+			margin-bottom: 2px;
+			text-align: right;
+		}
+		.conf-inf a:hover{
+			color: #0071C5;
+		}
+
+		.footer{
+			border-top: 1px solid #DDD;
+			padding-top: 10px;
+		}
+		.logo-ext{
+			opacity: 0.7;
+		}
+		.logo-ext:hover{
+			opacity: 1;
+		}
+		.main-container{
+			width: 960px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+.narrow a{
+	font-size: 14px !important;
+}
+.collapse.in{
+		height: auto;
+	}
+	.collapse{
+		position: relative;
+		height: 0;
+		overflow: hidden;
+		-webkit-transition: height 0.35s ease;
+		-moz-transition: height 0.35s ease;
+		-o-transition: height 0.35s ease;
+		transition: height 0.35s ease;
+	}
+	.accordion-inner{
+		padding: 9px 15px;
+		border-top: 1px solid #E5E5E5;
+	}
+	.accordion-heading{
+		padding: 9px 15px;
+	}
+	.accordion-heading > strong{
+		width: 100px !important;
+	}

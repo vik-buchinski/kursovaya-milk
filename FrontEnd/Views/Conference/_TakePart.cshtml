@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Core.ViewModels.Conference.TakePartCategotyViewModel>
+
+@if (Model != null)
+{
+    <h2 style="text-align: center;">Choose category</h2>
+    <br />
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Category name</th>
+                <th>Members registred</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr onclick=" selectCategory(@item.Category.Id); ">
+                    <td>@item.Category.Name</td>
+                    <td>@item.RegisteredCount</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <h2 class="text-center text-danger">No categories</h2>
+}
+<script>
+    function selectCategory(id) {
+        server.goToMemberRegistration(id, function (data) {
+            $("#body-content").html(data);
+        });
+    }
+</script>

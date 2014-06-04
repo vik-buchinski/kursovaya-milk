@@ -1,0 +1,62 @@
+﻿@model DataAcess.Models.Conference.ConferenceModel
+
+<div id="conference-managment-block">
+    <label id="coference-status-label">No started conferences</label>
+    <label id="opened-registration-label">Registration is opened!</label>
+    <label id="not-opened-registration-label">Registration is not opened!</label><br/>
+    <button class="btn btn-danger" type="button" data-toggle="confirmation" data-placement="top" onclick="startConference();">Start new conference</button>
+    <button class="btn btn-danger disabled" id="open-registration" type="button" onclick="openConferenceRegistration();">Open registration</button>
+</div>
+
+<script>
+    $(document).ready(function () {
+        updateView();
+    });
+
+
+    function openConferenceRegistration() {
+        server.openConferenceRegistration(function (data) {
+            updateView();
+            $.gritter.add({
+                title: 'Registration successfully opened!',
+                sticky: false,
+                time: 8000,
+                class_name: 'gritter-light'
+            });
+        });
+    }
+
+    function updateView() {
+        server.getCurrentCoferenceStatus(function (data) {
+            if (data) {
+                $("#coference-status-label").hide();
+                if (data.is_conference_available_for_registration == false) {
+                    $("#opened-registration-label").hide();
+                    $("#not-opened-registration-label").show();
+                    $("#open-registration").removeClass("disabled");
+                } else {
+                    $("#opened-registration-label").show();
+                    $("#not-opened-registration-label").hide();
+                    $("#open-registration").addClass("disabled");
+                }
+            } else {
+                $("#opened-registration-label").hide();
+                $("#not-opened-registration-label").hide();
+                $("#coference-status-label").show();
+                $("#open-registration").addClass("disabled");
+            }
+        });
+    }
+
+    function startConference() {
+        server.startNewConference(function (content) {
+            $.gritter.add({
+                title: 'Conference successfully started!',
+                sticky: false,
+                time: 8000,
+                class_name: 'gritter-light'
+            });
+            updateView();
+        });
+    }
+</script>
