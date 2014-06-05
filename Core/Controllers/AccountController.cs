@@ -11,7 +11,7 @@ namespace Core.Controllers
     public class AccountController : Controller
     {
         [HttpGet]
-        public PartialViewResult SignIn()
+        public ActionResult SignIn()
         {
             return PartialView("_SignIn");
         }

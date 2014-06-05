@@ -1,8 +1,13 @@
-﻿var server = {
+﻿var requestsLaunched = 0;
+var server = {
+    getLoginView: function (callback) {
+        server.doRequest("/Account/SignIn", "GET", "", callback);
+    },
+
     goToFileUpload: function (memberId, categoryId, callback) {
         server.doRequest("/Conference/UploadWork", "GET", { member_id: memberId, category_id: categoryId }, callback);
     },
-    
+
     goToMemberRegistration: function (categoryId, callback) {
         var params = { conference_category: categoryId };
         server.doRequest("/Conference/RegistrateMember", "GET", params, callback);
@@ -46,18 +51,33 @@
         };
         server.doRequest("/AdminPanel/GetRolesInfo", "POST", params, callback);
     },
-    
+
     doRequest: function (url, requestType, params, callback) {
         $.ajax({
             url: url,
+            beforeSend: function () {
+                requestsLaunched++;
+                $(".spinner").show();
+            },
+            complete: function () {
+                requestsLaunched--;
+                if (requestsLaunched === 0) {
+                    $(".spinner").hide();
+                }
+            },
             data: params,
             dataType: "json",
             type: requestType,
             success: function (data) {
+                debugger;
                 callback(data);
             },
             error: function (error) {
-                alert(JSON.parse(error.responseText));
+                if (error.status == 200) {
+                    callback(error.responseText);
+                } else {
+                    alert(JSON.parse(error.responseText));
+                }
             }
         });
     }

@@ -24,13 +24,16 @@ namespace FrontEnd.App_Start
         private static void RegisterJavascriptBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/js")
-                            .Include("~/Scripts/jquery.js")
-                            .Include("~/Scripts/bootstrap-carousel.js")
-                            .Include("~/Scripts/bootstrap-transitions.js")
-                            .Include("~/Scripts/bootstrap-collapse.js")
-                            .Include("~/Scripts/jquery.unobtrusive-ajax.js")
-                            .Include("~/Scripts/jquery.validate.js")
-                            .Include("~/Scripts/jquery.validate.unobtrusive.js")
+                            .Include("~/Scripts/Libs/jquery.js")
+                            .Include("~/Scripts/Libs/bootstrap-carousel.js")
+                            .Include("~/Scripts/Libs/bootstrap-transitions.js")
+                            .Include("~/Scripts/Libs/bootstrap-collapse.js")
+                            .Include("~/Scripts/Libs/jquery.unobtrusive-ajax.js")
+                            .Include("~/Scripts/Libs/jquery.validate.js")
+                            .Include("~/Scripts/Libs/jquery.validate.unobtrusive.js")
+                            .Include("~/Scripts/Libs/underscore.js")
+                            .Include("~/Scripts/Libs/backbone.js")
+                            .Include("~/Scripts/backbone-router.js")
                             .Include("~/Scripts/app.js")
                             .Include("~/Scripts/client.js"));
         }

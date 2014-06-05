@@ -197,9 +197,11 @@
     <Content Include="Content\Icons\syncfusion-24g-icons.png" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\app.js" />
-    <Content Include="Scripts\bootstrap-carousel.js" />
-    <Content Include="Scripts\bootstrap-collapse.js" />
-    <Content Include="Scripts\bootstrap-transitions.js" />
+    <Content Include="Scripts\backbone-router.js" />
+    <Content Include="Scripts\Libs\backbone.js" />
+    <Content Include="Scripts\Libs\bootstrap-carousel.js" />
+    <Content Include="Scripts\Libs\bootstrap-collapse.js" />
+    <Content Include="Scripts\Libs\bootstrap-transitions.js" />
     <Content Include="Scripts\client.js" />
     <EmbeddedResource Include="Resources\Views\Account\SignIn.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
@@ -216,10 +218,11 @@
       <LastGenOutput>LayoutResources.Designer.cs</LastGenOutput>
       <CustomToolNamespace>FrontEnd.Web.Resources</CustomToolNamespace>
     </EmbeddedResource>
-    <Content Include="Scripts\jquery.js" />
-    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\Libs\jquery.js" />
+    <Content Include="Scripts\Libs\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\Libs\jquery.validate.js" />
+    <Content Include="Scripts\Libs\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\Libs\underscore.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

@@ -1,14 +1,9 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Resources/d:Views/d:Shared/f:LayoutResources.resx" caret="0" fromTop="0" />
-    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:Controllers/f:HomeController.cs" caret="424" fromTop="25" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:app.js" caret="0" fromTop="0" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:client.js" caret="0" fromTop="0" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/f:Web.config" caret="0" fromTop="0" />
     <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Content/f:milk-responsive.css" caret="18092" fromTop="0" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:bootstrap-carousel.js" caret="2091" fromTop="22" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:bootstrap-transitions.js" caret="2076" fromTop="43" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:bootstrap-collapse.js" caret="4934" fromTop="43" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/d:Libs/f:bootstrap-carousel.js" caret="2091" fromTop="22" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/d:Libs/f:bootstrap-transitions.js" caret="2076" fromTop="43" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/d:Libs/f:bootstrap-collapse.js" caret="4934" fromTop="43" />
     <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:App_Start/f:WebApiConfig.cs" caret="0" fromTop="0" />
     <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:App_Start/f:RouteConfig.cs" caret="0" fromTop="0" />
     <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:App_Start/f:FilterConfig.cs" caret="0" fromTop="0" />
@@ -16,39 +11,50 @@
     <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Resources/d:Views/d:Shared/f:UserAreaResources.Designer.cs" caret="491" fromTop="0" />
     <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Content/f:common.css" caret="2618" fromTop="32" />
     <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Resources/d:Views/d:Account/f:SignIn.Designer.cs" caret="0" fromTop="0" />
-    <File id="7020124F-9FFC-4AC3-8F3D-AAB8E0240759/f:test.html/l:..?..?test.html" caret="22775" fromTop="344" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:jquery.unobtrusive-ajax.js" caret="7007" fromTop="43" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:jquery.validate.js" caret="23487" fromTop="1" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:jquery.validate.unobtrusive.js" caret="5373" fromTop="4" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:jquery.js" caret="169" fromTop="1" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/d:Libs/f:jquery.unobtrusive-ajax.js" caret="7007" fromTop="43" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/d:Libs/f:jquery.validate.js" caret="23487" fromTop="1" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/d:Libs/f:jquery.validate.unobtrusive.js" caret="5373" fromTop="4" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/d:Libs/f:jquery.js" caret="169" fromTop="1" />
     <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Content/f:milk.css" caret="3433" fromTop="22" />
     <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Content/f:bootstrap.css" caret="700" fromTop="34" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Shared/f:_Layout.cshtml" caret="2126" fromTop="34" />
-    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:Controllers/f:AccountController.cs" caret="317" fromTop="9" />
     <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Account/f:_SignIn.cshtml" caret="871" fromTop="15" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Shared/f:_UserAreaPartial.cshtml" caret="33" fromTop="1" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:App_Start/f:BundleConfig.cs" caret="660" fromTop="12" />
     <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Content/f:site.css" caret="882" fromTop="23" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/d:Libs/f:backbone.js" caret="69657" fromTop="43" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/d:Libs/f:underscore.js" caret="51472" fromTop="43" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:Controllers/f:AccountController.cs" caret="87" fromTop="4" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:App_Start/f:BundleConfig.cs" caret="1524" fromTop="30" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:Controllers/f:HomeController.cs" caret="223" fromTop="12" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:client.js" caret="2318" fromTop="25" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:app.js" caret="906" fromTop="19" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:backbone-router.js" caret="309" fromTop="13" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Shared/f:_UserAreaPartial.cshtml" caret="60" fromTop="2" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Shared/f:_Layout.cshtml" caret="777" fromTop="22" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/f:_ViewStart.cshtml" caret="0" fromTop="0" />
   </RecentFiles>
   <RecentEdits>
     <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Resources/d:Views/d:Shared/f:LayoutResources.resx" caret="0" fromTop="0" />
     <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Content/f:bootstrap.css" caret="2549" fromTop="43" />
     <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Content/f:milk.css" caret="22475" fromTop="22" />
     <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Content/f:milk-responsive.css" caret="18092" fromTop="0" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:jquery.js" caret="112389" fromTop="1" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:bootstrap-carousel.js" caret="5836" fromTop="43" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:bootstrap-transitions.js" caret="2076" fromTop="43" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:bootstrap-collapse.js" caret="4934" fromTop="43" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/d:Libs/f:jquery.js" caret="112389" fromTop="1" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/d:Libs/f:bootstrap-carousel.js" caret="5836" fromTop="43" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/d:Libs/f:bootstrap-transitions.js" caret="2076" fromTop="43" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/d:Libs/f:bootstrap-collapse.js" caret="4934" fromTop="43" />
     <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Content/f:common.css" caret="2618" fromTop="23" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Shared/f:_Layout.cshtml" caret="1509" fromTop="16" />
     <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Resources/d:Views/d:Account/f:SignIn.Designer.cs" caret="0" fromTop="0" />
     <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Account/f:_SignIn.cshtml" caret="809" fromTop="12" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Shared/f:_UserAreaPartial.cshtml" caret="146" fromTop="3" />
-    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:Controllers/f:AccountController.cs" caret="174" fromTop="3" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:jquery.unobtrusive-ajax.js" caret="7007" fromTop="43" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:jquery.validate.js" caret="23487" fromTop="1" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:jquery.validate.unobtrusive.js" caret="5373" fromTop="4" />
-    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:App_Start/f:BundleConfig.cs" caret="660" fromTop="12" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/d:Libs/f:jquery.unobtrusive-ajax.js" caret="7007" fromTop="43" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/d:Libs/f:jquery.validate.js" caret="23487" fromTop="1" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/d:Libs/f:jquery.validate.unobtrusive.js" caret="5373" fromTop="4" />
     <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Content/f:site.css" caret="882" fromTop="23" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/d:Libs/f:backbone.js" caret="69657" fromTop="43" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/d:Libs/f:underscore.js" caret="51472" fromTop="43" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:App_Start/f:BundleConfig.cs" caret="1524" fromTop="30" />
+    <File id="B0B94863-F6A9-4EFB-B0F6-13F953B84403/d:Controllers/f:AccountController.cs" caret="278" fromTop="13" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:backbone-router.js" caret="309" fromTop="13" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:app.js" caret="0" fromTop="0" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Scripts/f:client.js" caret="25" fromTop="0" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Shared/f:_UserAreaPartial.cshtml" caret="60" fromTop="2" />
+    <File id="DF7BB394-3435-492A-8621-54A8C821816D/d:Views/d:Shared/f:_Layout.cshtml" caret="777" fromTop="22" />
   </RecentEdits>
 </RecentFiles>
