@@ -4,7 +4,7 @@ namespace Core.ViewModels.Account
 {
     public class SignInViewModel
     {
-        [Required(ErrorMessage = "The email address is required")]
+        [Required(ErrorMessageResourceType = typeof(Web.Resources.SignIn), ErrorMessageResourceName = "EMAIL_REQUIRED")]
         [Display(Name = "Email")]
         [EmailAddress(ErrorMessage = "Invalid Email Address")]
         public string Email { get; set; }
