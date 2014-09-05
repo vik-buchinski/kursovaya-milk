@@ -5,3 +5,13 @@ E:\Android\Phonegap apps\GitHub\kursovaya\DataAcess\bin\Debug\EntityFramework.xm
 E:\Android\Phonegap apps\GitHub\kursovaya\DataAcess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
 E:\Android\Phonegap apps\GitHub\kursovaya\DataAcess\obj\Debug\DataAcess.dll
 E:\Android\Phonegap apps\GitHub\kursovaya\DataAcess\obj\Debug\DataAcess.pdb
+E:\Projects\Github\kursovaya-milk\DataAcess\bin\Debug\DataAcess.dll.config
+E:\Projects\Github\kursovaya-milk\DataAcess\bin\Debug\DataAcess.dll
+E:\Projects\Github\kursovaya-milk\DataAcess\bin\Debug\DataAcess.pdb
+E:\Projects\Github\kursovaya-milk\DataAcess\bin\Debug\EntityFramework.dll
+E:\Projects\Github\kursovaya-milk\DataAcess\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\Github\kursovaya-milk\DataAcess\bin\Debug\EntityFramework.xml
+E:\Projects\Github\kursovaya-milk\DataAcess\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\Github\kursovaya-milk\DataAcess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+E:\Projects\Github\kursovaya-milk\DataAcess\obj\Debug\DataAcess.dll
+E:\Projects\Github\kursovaya-milk\DataAcess\obj\Debug\DataAcess.pdb

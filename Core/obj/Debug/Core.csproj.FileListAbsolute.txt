@@ -6,3 +6,17 @@ E:\Android\Phonegap apps\GitHub\kursovaya\Core\bin\Debug\DataAcess.pdb
 E:\Android\Phonegap apps\GitHub\kursovaya\Core\bin\Debug\EntityFramework.xml
 E:\Android\Phonegap apps\GitHub\kursovaya\Core\obj\Debug\Core.dll
 E:\Android\Phonegap apps\GitHub\kursovaya\Core\obj\Debug\Core.pdb
+E:\Projects\Github\kursovaya-milk\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+E:\Projects\Github\kursovaya-milk\Core\obj\Debug\Core.Resources.Models.Account.SignIn.resources
+E:\Projects\Github\kursovaya-milk\Core\obj\Debug\Core.csproj.GenerateResource.Cache
+E:\Projects\Github\kursovaya-milk\Core\bin\Debug\Core.dll.config
+E:\Projects\Github\kursovaya-milk\Core\bin\Debug\Core.dll
+E:\Projects\Github\kursovaya-milk\Core\bin\Debug\Core.pdb
+E:\Projects\Github\kursovaya-milk\Core\bin\Debug\DataAcess.dll
+E:\Projects\Github\kursovaya-milk\Core\bin\Debug\EntityFramework.dll
+E:\Projects\Github\kursovaya-milk\Core\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\Github\kursovaya-milk\Core\bin\Debug\DataAcess.pdb
+E:\Projects\Github\kursovaya-milk\Core\bin\Debug\EntityFramework.xml
+E:\Projects\Github\kursovaya-milk\Core\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\Github\kursovaya-milk\Core\obj\Debug\Core.dll
+E:\Projects\Github\kursovaya-milk\Core\obj\Debug\Core.pdb
